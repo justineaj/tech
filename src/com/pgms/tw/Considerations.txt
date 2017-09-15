@@ -1,0 +1,32 @@
+Please feel free to capture any design considerations you'd like us to note,
+along with any edge-cases that you identified but did not handle here.
+
+
+
+-read from file, once
+
+Edge cases not handled:
+-If dataTypes not matched
+- If file content chnaged
+
+-If the DataType of the value is different from the requested type
+
+-results of  get*List methods can be cached to improve performance
+Read once, group by override,
+
+
+
+if number of override is less{
+    -duplicate override data
+    - retreval is fast
+}
+else{
+    -dont duplicate
+    -retreval is heavy
+
+}
+
+
+
+
+
